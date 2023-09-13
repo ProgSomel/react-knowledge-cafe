@@ -4,7 +4,7 @@
       "cover_img": "https://i.ibb.co/wL9ZP7d/blog1.jpg",
       "title": "The Secret of the Hidden Treasure",
       "author": "John Doe",
-      "author_img": "https://example.com/author1.jpg",
+      "author_img": "../src/assets/images/author/author.png",
       "posted_date": "2023-09-13",
       "reading_time": 10,
       "hashtags": ["adventure", "mystery"]
@@ -14,7 +14,7 @@
       "cover_img": "https://i.ibb.co/YtkCPSm/blog2.jpg",
       "title": "Exploring the Enchanted Forest",
       "author": "Jane Smith",
-      "author_img": "https://example.com/author2.jpg",
+      "author_img": "../src/assets/images/author/author.png",
       "posted_date": "2023-09-14",
       "reading_time": 8,
       "hashtags": ["nature", "fantasy"]
@@ -24,7 +24,7 @@
       "cover_img": "https://i.ibb.co/XxMZvSD/blog3.jpg",
       "title": "Cooking Adventures",
       "author": "Chef Mike",
-      "author_img": "https://example.com/author3.jpg",
+      "author_img": "../src/assets/images/author/author.png",
       "posted_date": "2023-09-15",
       "reading_time": 15,
       "hashtags": ["cooking", "food"]
@@ -34,7 +34,7 @@
       "cover_img": "https://i.ibb.co/BGZ4CwZ/blog4.jpg",
       "title": "Space Odyssey",
       "author": "Astronaut Alex",
-      "author_img": "https://example.com/author4.jpg",
+      "author_img": "../src/assets/images/author/author.png",
       "posted_date": "2023-09-16",
       "reading_time": 12,
       "hashtags": ["space", "science"]
@@ -44,7 +44,7 @@
       "cover_img": "https://i.ibb.co/vsfwwP9/blog5.jpg",
       "title": "Traveling the World",
       "author": "Wanderlust Emily",
-      "author_img": "https://example.com/author5.jpg",
+      "author_img": "../src/assets/images/author/author.png",
       "posted_date": "2023-09-17",
       "reading_time": 14,
       "hashtags": ["travel", "adventure"]
