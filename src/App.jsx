@@ -8,8 +8,16 @@ function App() {
   
   const [bookMarks, setBookMarks] = useState([]);
 
+
   const handleBookMarks = blog => {
-    console.log('book marks adding soon');
+    const newBookMarks = [...bookMarks, blog];
+    setBookMarks(newBookMarks);
+  }
+
+  const [readingTime, setReadingTime] = useState(0);
+
+  const handleMarkAsRead = time => {
+    setReadingTime(readingTime+time);
   }
 
 
@@ -18,8 +26,8 @@ function App() {
       
       <Header></Header>
       <div className='md:flex mt-5'>
-        <Blogs handleBookMarks={handleBookMarks}></Blogs>
-        <Bookmarks></Bookmarks>
+        <Blogs handleBookMarks={handleBookMarks} handleMarkAsRead={handleMarkAsRead}></Blogs>
+        <Bookmarks bookMarks={bookMarks} readingTime={readingTime}></Bookmarks>
       </div>
       
     </div>
